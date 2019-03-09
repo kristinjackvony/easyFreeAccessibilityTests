@@ -6,7 +6,7 @@ val = elem.get_attribute('alt')
 if val == 'Goodnight Moon':
 	print('Alt text is present')
 else:
-	print('Alt text is missing')
+	print('Alt text is missing or incorrect')
 
 driver.get("https://www.audi.com/en.html")
 driver.find_element_by_link_text("DE").click()
